@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+#game-text {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #00ffff;
+}
