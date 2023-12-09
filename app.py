@@ -92,9 +92,9 @@ def generate_frames():
                     cv2.rectangle(frame, box_top_left_2, box_bottom_right_2, box_color, box_thickness)
 
                     if box_top_left_1[0] > frame.shape[1] / 2:
-                        player2_hand = hand_landmarks
-                    else:
                         player1_hand = hand_landmarks
+                    else:
+                        player2_hand = hand_landmarks
 
             if player1_hand and player2_hand:
                 p1_move = getHandMove(player1_hand)
